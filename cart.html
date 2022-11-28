@@ -111,7 +111,7 @@
           <div class="address">
             <h2>Địa chỉ nhận hàng</h2>
             <p>
-              Bùi Trần Thiên Ân | (+84) 33673528328/47 <br />
+              Võ Tá Thành An | (+84) 33673528328/47 <br />
               Lê Thị Hồng, Phường 17, Gò Vấp, T.P Hồ Chí Minh.
             </p>
           </div>
@@ -346,19 +346,19 @@
           <div class="sk-cube sk-cube8"></div>
           <div class="sk-cube sk-cube9"></div>
         </div>
-      </div>`;
-        document.body.insertAdjacentHTML("beforeend", loadingTem);
-        document.body.addEventListener("click", function (event) {
-          event.preventDefault();
+      </div>`
+        document.body.insertAdjacentHTML('beforeend', loadingTem)
+        document.body.addEventListener('click', function (event) {
+          event.preventDefault()
 
           // Vì event của thẻ a, nên phải chạy window.open trước cho khỏi bị delay
           setTimeout(function () {
-            document.querySelector(".modal-loading").remove();
-          }, 1500);
+            document.querySelector('.modal-loading').remove()
+          }, 1500)
           setTimeout(function () {
-            window.open(event.target.href, "_self");
-          }, 1450);
-        });
+            window.open(event.target.href, '_self')
+          }, 1450)
+        })
       }
     </script>
     <!-- Font Ionic CDN Link  -->
@@ -374,7 +374,7 @@
     <!-- AOS CDN Link -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-      AOS.init();
+      AOS.init()
     </script>
 
     <!-- Jquery CDN -->

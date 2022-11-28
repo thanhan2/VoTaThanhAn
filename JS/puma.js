@@ -1,5 +1,5 @@
 import { PumaData } from "./productData.js";
-const endpoint = "https://6210bfd64cd3049e1783e6c5.mockapi.io/api/cart";
+// const endpoint = "https://6210bfd64cd3049e1783e6c5.mockapi.io/api/cart";
 let tab1 = document.querySelector(".content-right .tab1");
 let tab2 = document.querySelector(".content-right .tab2");
 // ============================================ POST Product lên API Cart
